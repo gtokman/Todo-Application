@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		DA510EFB1FB7AC140002D521 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA510EFA1FB7AC140002D521 /* AppDelegate.swift */; };
-		DA510EFD1FB7AC140002D521 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA510EFC1FB7AC140002D521 /* ViewController.swift */; };
 		DA510F001FB7AC140002D521 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA510EFE1FB7AC140002D521 /* Main.storyboard */; };
 		DA510F021FB7AC140002D521 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA510F011FB7AC140002D521 /* Assets.xcassets */; };
 		DA510F051FB7AC140002D521 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA510F031FB7AC140002D521 /* LaunchScreen.storyboard */; };
@@ -21,7 +20,6 @@
 /* Begin PBXFileReference section */
 		DA510EF71FB7AC140002D521 /* TodoApplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TodoApplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA510EFA1FB7AC140002D521 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DA510EFC1FB7AC140002D521 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DA510EFF1FB7AC140002D521 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DA510F011FB7AC140002D521 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DA510F041FB7AC140002D521 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -65,7 +63,6 @@
 				DAC248501FBA5CC800C0F507 /* CoreData */,
 				DAF3ABC31FB9092F005E9105 /* VC */,
 				DA510EFA1FB7AC140002D521 /* AppDelegate.swift */,
-				DA510EFC1FB7AC140002D521 /* ViewController.swift */,
 				DA510EFE1FB7AC140002D521 /* Main.storyboard */,
 				DA510F011FB7AC140002D521 /* Assets.xcassets */,
 				DA510F031FB7AC140002D521 /* LaunchScreen.storyboard */,
@@ -164,7 +161,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA510EFD1FB7AC140002D521 /* ViewController.swift in Sources */,
 				DAC248531FBA5CDD00C0F507 /* Todos.xcdatamodeld in Sources */,
 				DAF3ABC71FB90955005E9105 /* TodoTableViewController.swift in Sources */,
 				DAE9B0181FBCAC3E00156659 /* CoreDataStack.swift in Sources */,
